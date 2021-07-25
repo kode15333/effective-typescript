@@ -11,4 +11,6 @@ function isGeeting(pharse: String) {
     return ["hello", "good day"].includes(pharse);
 }
 
+git test
+
 
