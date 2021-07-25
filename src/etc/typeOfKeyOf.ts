@@ -1,5 +1,5 @@
 type Point = { x: number; y: number };
-type P = keyof Point; // type '"x" || "y"'
+type P = keyof Point; // type '"x" || "y"' 유니온타입으로 나온다
 
 type Language = "EN" | "ES";
 const userLanguage: Language = "EN";
