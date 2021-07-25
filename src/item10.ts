@@ -1,3 +1,5 @@
+export {};
+
 function getStringLen(foo: String) {
     return foo.length;
 }
