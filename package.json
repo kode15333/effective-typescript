@@ -6,6 +6,7 @@
     "build": "parcel build index.html"
   },
   "devDependencies": {
+    "@types/node": "^16.4.7",
     "@typescript-eslint/eslint-plugin": "^4.28.2",
     "@typescript-eslint/parser": "^4.28.2",
     "eslint": "^7.30.0",
