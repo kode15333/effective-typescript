@@ -21,3 +21,5 @@ function parseCSV(
 ): { [column: string]: string }[] {}
 
 parseCSV(new Buffer("column1,column2\nval1,val2", "utf-8"));
+
+/*필요한 선언부만 추출하여 작성 중인 라이브러리에 넣는것(미러링)을 고려해보는것도 좋습니다.*/
